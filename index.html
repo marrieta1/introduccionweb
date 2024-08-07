@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.js"></script>
+  <style>
+    html, body {
+  margin: 0;
+  padding: 0;
+  cursor: crosshair;
+
+}
+canvas {
+  display: block;
+}
+
+h1{
+  position: absolute;
+  top:1rem;
+  left:3rem;
+  z-index:2;
+}
+
+p{
+  position: absolute;
+  width:50vw;
+  top:1rem;
+  left:3rem;
+  z-index:2;
+
+</style>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <main>
+       <h1>Hola Mundo! </h1>
+        <p>tome este curso porque </p>
+    </main>
+    <script src="sketch.js">var a = "Hola_Mundo";
+function setup() {
+  createCanvas(windowWidth, windowWidth);
+  background(100,70,140)
+}
+function draw() {
+  line(pmouseX, pmouseY, mouseX,mouseY)
+}
+</script>
+  </body>
+</html>
